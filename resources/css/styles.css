@@ -1,0 +1,114 @@
+:root {
+   --footer-bg: rgba(59, 59, 59, 1);
+}
+
+body {
+   background-image: url(../images/bg.png);
+   background-size: cover;
+   margin: 0;
+   font-family: Poppins, sans-serif;
+}
+.container {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 80px;
+}
+
+.inline {
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 160px;
+}
+
+.inline .title {
+   margin-left: 50px;
+}
+
+.player-area,
+.computer-area {
+   background-color: #fff;
+   width: 300px;
+   height: 600px;
+   display: flex;
+   align-items: center;
+}
+
+.scoreboard span {
+   margin: 0 15px;
+}
+
+.computer {
+   margin: auto;
+}
+
+.player {
+   margin-left: 10px;
+}
+
+.box {
+   background-color: #fff;
+   margin-top: 20px;
+   padding: 20px;
+   border: 5px solid #000;
+   border-radius: 20px;
+}
+
+.hasil {
+   font-size: 3rem;
+   margin: 0;
+}
+
+h1 {
+   text-align: center;
+   font-size: 2rem;
+}
+
+ul {
+   list-style-type: none;
+}
+
+img {
+   width: 140px;
+   height: auto;
+   padding: 20px;
+}
+
+li {
+   margin: 0 18px;
+}
+
+.rock:hover,
+.paper:hover,
+.scissors:hover {
+   box-shadow: 0px 0px 10px 5px #000;
+   cursor: pointer;
+}
+
+footer .footer-box {
+   max-width: 100%;
+   height: 160px;
+   background-color: var(--footer-bg);
+   display: flex;
+   margin-top: 20px;
+   color: #fff;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+}
+
+footer .footer-box h1 {
+   width: 100%;
+   margin: 30px 0;
+   font-size: 30px;
+   font-size: 1.5rem;
+}
+
+footer .footer-box svg {
+   padding: 0;
+   margin: 0 20px;
+}
+
+footer .footer-box a {
+   text-decoration: none;
+   color: #fff;
+}
