@@ -71,3 +71,5 @@ pilihan.forEach((pil) => {
       }, 1000);
    });
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
